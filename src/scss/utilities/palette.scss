@@ -1,0 +1,86 @@
+:root{
+    --primary-100: rgb(234, 237, 243);
+    --primary-300: rgb(175, 188, 240);
+    --primary-500: rgb(83, 83, 238);
+    --primary-700: rgb(42, 42, 125);
+    --primary-900: rgb(31, 31, 49);
+
+    --secondary-300: rgb(243, 210, 227);
+    --secondary-500: rgb(245, 38, 169);
+    --secondary-700: rgb(255, 0, 111);
+
+
+    --neutral-000: rgb(255, 255, 255);
+    --neutral-100: rgb(245, 245, 245);
+    --neutral-300: #eaeaee;
+    --neutral-500: #d5d5da;
+    --neutral-600: #a8a8a8;
+    --neutral-700: rgb(29, 29, 29);
+    --neutral-900: #030303;
+}
+
+//Backgrounds
+.bg-primary-100{
+    background-color: var(--primary-100);
+}
+
+.bg-primary-300{
+    background-color: var(--primary-300);
+}
+
+.bg-primary-500{
+    background-color: var(--primary-500);
+}
+
+.bg-primary-700{
+    background-color: var(--primary-700);
+}
+
+.bg-secondary-300{
+    background-color: var(--secondary-300);
+}
+
+.bg-secondary-500{
+    background-color: var(--secondary-500);
+}
+
+.bg-secondary-700{
+    background-color: var(--secondary-700);
+}
+
+.bg-neutral-000{
+    background-color: var(--neutral-000);
+    color: var(--neutral-900);
+}
+
+.bg-neutral-100{
+    background-color: var(--neutral-100);
+    color: var(--neutral-900);
+}
+
+.bg-neutral-300{
+    background-color: var(--neutral-300);
+    color: var(--neutral-900);
+
+    .rich-text{
+        color: var(--neutral-900);
+    }
+}
+
+.bg-neutral-500{
+    background-color: var(--neutral-500);
+}
+
+.bg-neutral-700{
+    background-color: var(--neutral-700);
+    color: var(--neutral-100);
+}
+
+.bg-neutral-900{
+    background-color: var(--neutral-900);
+    color: var(--neutral-100);
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
