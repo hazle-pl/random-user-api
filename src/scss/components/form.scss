@@ -15,14 +15,28 @@
         gap: 30px;
         align-items: center;
 
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 15px;
+        }
+
         form{
             display: flex;
             gap: 30px;
+
+            @media (max-width: 768px) {
+                width: 100%;
+                gap: 15px;
+            }
 
             .count,.country{
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
                 
                 select{
                     border: 1px solid var(--neutral-300);
@@ -43,6 +57,10 @@
             font-size: 1rem;
             cursor: pointer;
             transition: 0.25s;
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
 
             &:hover{
                 background-color: var(--primary-700);
